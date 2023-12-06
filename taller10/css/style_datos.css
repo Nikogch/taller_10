@@ -1,0 +1,92 @@
+body{
+    background: url('../img/fondo_datos.jpg') no-repeat;
+    background-size: cover;
+
+}
+
+h1{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}
+
+h1.titulo{
+    color: #fff;
+}
+
+.main-frame-data{
+    width: 80%;
+    padding: 50px;
+    height: 100%;
+    border-radius: 30px;
+    background-color: rgba(217, 217, 217, 0.759);
+    box-shadow: 0px 0px 20px 0px rgba(110, 110, 110, 0.775);
+    margin: 7% auto;
+}
+
+.wrapper{ margin: 80px 0; }
+.thumb {
+    width: 70px;
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+}
+.table > tbody > tr > td {
+     vertical-align: middle;
+}
+
+.video_box {
+    background: rgba(0, 0, 0, 0.54);
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    position: fixed;
+    z-index: 555;
+    display: none;
+}
+.video_inner{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 430px;
+	height: 280px;
+	background: #fff;
+    padding: 15px;
+
+}
+
+table tr td{
+    text-transform: uppercase;
+}
+.modal-close {
+    position: absolute;
+    top: 0;
+    z-index: 5;
+    background: #d64a4a;
+    padding: 0px 11px;
+    color: #fff;
+    font-size: 34px;
+    line-height: normal;
+    right: -42px;
+    cursor: pointer;
+}
+.video_body{
+	width: 400px;
+	height: 250px;
+}
+.home{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 50px;
+}
